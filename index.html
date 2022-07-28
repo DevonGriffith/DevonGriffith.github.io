@@ -154,6 +154,9 @@
     -webkit-animation-duration: 1s;
     visibility: visible;
   }
+  .rotate_image {
+    transform: rotate(180deg);
+  }
   @keyframes slide {
     0% {
       opacity: 0;
@@ -308,7 +311,7 @@
     <div class="col-sm-4">
       <div class="thumbnail">
         <!--<img src="paris.jpg" alt="Paris" width="400" height="300">-->
-        <img src="IMG_1480.jpg" width="400" height="300">
+        <img class="rotate_image" src="IMG_1480.jpg" width="400" height="300" >
         <p><strong>Paris</strong></p>
         <p>Yes, we built Paris</p>
       </div>
@@ -316,7 +319,7 @@
     <div class="col-sm-4">
       <div class="thumbnail">
         <!--<img src="newyork.jpg" alt="New York" width="400" height="300">-->
-        <img src="IMG_1481.jpg" width="400" height="300">
+        <img class="rotate_image" src="IMG_1481.jpg" width="400" height="300">
         <p><strong>New York</strong></p>
         <p>We built New York</p>
       </div>
